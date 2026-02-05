@@ -1,0 +1,32 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - echo "Starting the install phase..."
+      - node -v # Print Node.js version
+      - npm -v # Print npm version
+      - npm ci # Ensure clean install
+      - echo "Verifying installed dependencies..."
+      - if [ ! -d "node_modules/next" ]; then echo "Next.js not found. Installing..."; npm install next; fi
+      - echo "Ensuring 'next' is in PATH:"
+      - export PATH=$PATH:./node_modules/.bin
+      - which next || echo "Next.js binary not found after npm install"
+  build:
+    commands:
+      - echo "Starting the build phase..."
+      - pwd # Print current working directory
+      - echo "Contents of node_modules/.bin:"
+      - ls -la ./node_modules/.bin # Verify binaries
+      - export PATH=$PATH:./node_modules/.bin
+      - which next || (echo "Next.js binary still not found during build phase"; exit 1)
+      - npm run build # Run build with updated PATH
+artifacts:
+  files:
+    - '**/*' # Include all files
+    - 'appspec.yml' # Include AppSpec file
+  base-directory: .next # Ensure this matches your build output directory
+cache:
+  paths:
+    - node_modules/**/* # Cache dependencies for faster builds

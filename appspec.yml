@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /Components
+    destination: /var/www/html/Components
+  - source: /pages
+    destination: /var/www/html/pages
+hooks:
+  BeforeInstall:
+    - location: Services/install_dependencies.sh
+      timeout: 300
+      runas: root
