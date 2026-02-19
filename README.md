@@ -10,47 +10,37 @@ The platform is inspired by "Roger," a real-world expert who provided hands-on g
 
 ## ✨ Key Features
 
-* 
-**AI-Agent "Roger":** A personalized AI assistant powered by OpenAI's ChatGPT that provides real-time, context-aware feedback and troubleshooting as users work through tasks.
+* **AI-Agent "Roger":** A personalized AI assistant powered by OpenAI's ChatGPT that provides real-time, context-aware feedback and troubleshooting as users work through tasks.
 
 
-* 
-**Step-by-Step Project Tutorials:** Highly structured guides that break down complex home improvement tasks into manageable, hands-on steps using text, images, and video.
+* **Step-by-Step Project Tutorials:** Highly structured guides that break down complex home improvement tasks into manageable, hands-on steps using text, images, and video.
 
 
-* 
-**Gamification & Engagement:** A system of badges and progress tracking designed to increase user motivation and provide a sense of tangible accomplishment for beginners.
+* **Gamification & Engagement:** A system of badges and progress tracking designed to increase user motivation and provide a sense of tangible accomplishment for beginners.
 
 
-* 
-**Centralized Profile Hub:** A personalized "Toolbox" where users manage account details, track completed projects, and catalog their favorite physical tools.
+* **Centralized Profile Hub:** A personalized "Toolbox" where users manage account details, track completed projects, and catalog their favorite physical tools.
 
 
-* 
-**Mobile-First Accessibility:** Optimized for various screen sizes to allow users to transition seamlessly from a desktop to a garage or garden setting while working.
+* **Mobile-First Accessibility:** Optimized for various screen sizes to allow users to transition seamlessly from a desktop to a garage or garden setting while working.
 
 
 
 ## 🛠️ Tech Stack
 
-* 
-**Frontend:** React.js utilizing **Google Material Design** principles for a responsive, intuitive, and welcoming UI.
+* **Frontend:** React.js utilizing **Google Material Design** principles for a responsive, intuitive, and welcoming UI.
 
 
-* 
-**Backend:** Node.js for efficient request management and real-time data handling.
+* **Backend:** Node.js for efficient request management and real-time data handling.
 
 
-* 
-**AI Integration:** OpenAI’s ChatGPT model (pivoted from Azure AI for superior natural language processing).
+* **AI Integration:** OpenAI’s ChatGPT model (pivoted from Azure AI for superior natural language processing).
 
 
-* 
-**Cloud Infrastructure:** AWS (Amazon Web Services) for scalable hosting and reliable performance.
+* **Cloud Infrastructure:** AWS (Amazon Web Services) for scalable hosting and reliable performance.
 
 
-* 
-**Design & Version Control:** Figma for iterative prototyping and GitHub for collaborative development.
+* **Design & Version Control:** Figma for iterative prototyping and GitHub for collaborative development.
 
 
 
@@ -58,16 +48,13 @@ The platform is inspired by "Roger," a real-world expert who provided hands-on g
 
 The design of MKRHome is grounded in established **adult learning theories**:
 
-* 
-**Project-Based Learning:** Engages users directly with real-world DIY tasks to improve skill retention.
+* **Project-Based Learning:** Engages users directly with real-world DIY tasks to improve skill retention.
 
 
-* 
-**Adaptive Feedback:** Uses AI to provide immediate support tailored to a user's specific progress and potential mistakes.
+* **Adaptive Feedback:** Uses AI to provide immediate support tailored to a user's specific progress and potential mistakes.
 
 
-* 
-**Multimedia Integration:** Combines instructional videos with interactive guides to improve engagement compared to passive platforms.
+* **Multimedia Integration:** Combines instructional videos with interactive guides to improve engagement compared to passive platforms.
 
 
 
